@@ -90,12 +90,32 @@ var Car:TypeCars[]=[
     entry:"Key less entry", drive:"smooth drive",engine: 2300, chesis:785236012, gears: 5,
     year:2022,doors:5,
     }
-]
-console.log(Car[0].company, Car[1].company, Car[2].company, Car[3].company, Car[4].company)
-//console.log(Car)
-console.log(Car[0].model, Car[1].model, Car[2].model, Car[3].model, Car[4].model)
-console.log(Car[0].color, Car[1].color, Car[2].color, Car[3].color, Car[4].color)
-console.log(Car[0].engine, Car[1].engine, Car[2].engine, Car[3].engine, Car[4].engine)
-console.log(Car[0].chesis, Car[1].chesis, Car[2].chesis, Car[3].chesis, Car[4].chesis)
-console.log(Car[0].doors, Car[1].doors, Car[2].doors, Car[3].doors, Car[4].doors)
-console.log(Car[0])
+ ]
+// console.log(Car[0].company, Car[1].company, Car[2].company, Car[3].company, Car[4].company)
+// //console.log(Car)
+// console.log(Car[0].model, Car[1].model, Car[2].model, Car[3].model, Car[4].model)
+// console.log(Car[0].color, Car[1].color, Car[2].color, Car[3].color, Car[4].color)
+// console.log(Car[0].engine, Car[1].engine, Car[2].engine, Car[3].engine, Car[4].engine)
+// console.log(Car[0].chesis, Car[1].chesis, Car[2].chesis, Car[3].chesis, Car[4].chesis)
+// console.log(Car[0].doors, Car[1].doors, Car[2].doors, Car[3].doors, Car[4].doors)
+// console.log(Car[0])
+//console.log(Car[0].company,Car[2].company,Car[3].company,Car[4].company)
+for (let i = 0; i < Car.length; i++) 
+{
+var takePrint1= Car[i].company;
+var taketoPrint2=Car[i].color;
+var taketoPrint3=Car[i].engine
+var taketoPrint4=Car[i].drive
+var taketoPrint5=Car[i].doors
+var taketoPrint6=Car[i].chesis
+var taketoPrint7=Car[i].year
+var taketoPrint8=Car[i].brand
+var taketoPrint9=Car[i].model
+var taketoPrint10=Car[i].entry
+var taketoPrint11=Car[i].headlights
+var taketoPrint12=Car[i].gears
+
+console.log(takePrint1, taketoPrint2, taketoPrint3,taketoPrint4, taketoPrint5,taketoPrint6,
+    taketoPrint7,taketoPrint8,taketoPrint9,taketoPrint10,taketoPrint11,taketoPrint12);
+
+}
